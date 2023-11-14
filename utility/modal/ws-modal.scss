@@ -1,0 +1,31 @@
+.ws-modal {
+  .css-bdhsul-MuiTypography-root-MuiDialogTitle-root {
+    color: #000;
+    font-family: Roboto;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.45px;
+  }
+  .MuiIconButton-root {
+    .MuiSvgIcon-root {
+      width: 16px;
+      height: 16px;
+      fill: #000;
+    }
+  }
+  .modal-sub-title {
+    overflow: hidden;
+    color: #000;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.24px;
+  }
+}

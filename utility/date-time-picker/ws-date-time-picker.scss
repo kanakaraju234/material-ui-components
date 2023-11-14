@@ -1,0 +1,36 @@
+.ws-date-time-picker {
+  .MuiInputBase-input {
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.15px;
+  }
+  fieldset {
+    border-radius: 0px;
+    border-top: 0px;
+    border-right: 0px;
+    border-left: 0px;
+  }
+  .MuiFormControl-root {
+    margin-top: 10px !important;
+  }
+  .MuiFormLabel-root {
+    top: 5px !important;
+    left: -13px !important;
+  }
+  .MuiInputBase-input {
+    padding: 12px 0 !important;
+  }
+  .MuiStack-root {
+    padding-top: 0 !important;
+    margin-bottom: 0 !important;
+  }
+  .MuiFormHelperText-root {
+    color: red;
+    margin-top: 0 !important;
+    margin-left: 0 !important;
+    line-height: 1.5 !important;
+  }
+}

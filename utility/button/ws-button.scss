@@ -1,0 +1,42 @@
+.ws-btn-container {
+  .ws-btn {
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    line-height: normal;
+  }
+  .electric-blue {
+    background-color: #0150f4 !important;
+  }
+  .pale-green {
+    background-color: #ccf3e8 !important;
+  }
+  .pale-blue {
+    background-color: #d6e3fe !important;
+  }
+  .alice-blue {
+    background-color: #8998b7 !important;
+  }
+  .btn-border-black {
+    border-color: black;
+    color: black;
+    &:hover {
+      border-color: black;
+    }
+  }
+  .btn-border-blue {
+    border-color: #0150f4;
+    color: #0150f4;
+    &:hover {
+      border-color: #0150f4;
+    }
+  }
+  .btn-border-navy {
+    border-color: #031239;
+    color: #031239;
+    &:hover {
+      border-color: #031239;
+    }
+  }
+}

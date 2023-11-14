@@ -1,0 +1,61 @@
+.ws-data-grid {
+  border-width: 0px !important;
+  .MuiDataGrid-columnHeaders {
+    .MuiDataGrid-columnHeader {
+      overflow: hidden;
+      color: #000;
+      text-overflow: ellipsis;
+      font-family: Roboto;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal !important;
+      letter-spacing: 0.24px;
+      border: 0px;
+      min-height: 19px !important;
+      max-height: 19px !important;
+      height: 19px !important;
+
+      .MuiDataGrid-columnHeaderTitleContainer {
+        height: 19px !important;
+      }
+      .MuiDataGrid-columnSeparator {
+        display: none;
+      }
+    }
+  }
+  .MuiDataGrid-row {
+    min-height: 35px !important;
+    max-height: 35px !important;
+    border-radius: 10px;
+    margin-top: 15px;
+    background-color: #eef3ff !important;
+
+    .MuiDataGrid-cell {
+      min-height: 35px !important;
+      max-height: 35px !important;
+      border-bottom: 0px;
+      overflow: hidden;
+      //   background-color: #eef3ff !important;
+      color: #000;
+      text-overflow: ellipsis;
+      /* Body Text */
+      font-family: Roboto;
+      font-size: 15px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      letter-spacing: 0.24px;
+
+      //   &:nth-last-child(-n + 2) {
+      //     background-color: white !important;
+      //   }
+    }
+  }
+  .MuiDataGrid-cell:focus {
+    outline: unset !important;
+  }
+  .MuiDataGrid-cell:focus-within {
+    outline: unset !important;
+  }
+}
